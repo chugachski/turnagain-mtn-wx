@@ -10,6 +10,12 @@
   display: none;
 }
 
+.arrow {
+  border: 4px solid #000;
+  border-radius: 5px;
+  font-size: 40px;
+}
+
 li {
   background-color: #008B8B;
   border-radius: 6px;
@@ -22,7 +28,7 @@ li:hover {
   color: #039be5;
 }
 
-a {
+.content a {
   display: block;
   width: 100%;
   color: #F9F9F9;
@@ -31,7 +37,13 @@ a {
   padding: 4%;
 }
 
-img  {
-  border: 4px solid #000;
-  border-radius: 5px;
+.footer a {
+  display: block;
+  color: #090909;
+  text-decoration: none;
+  margin: 4%;
+}
+
+ul {
+  padding: 0;
 }

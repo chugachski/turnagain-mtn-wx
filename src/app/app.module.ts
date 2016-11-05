@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { ListComponent } from './list/list.component';
 import { DetailComponent } from './detail/detail.component';
 import { WeatherService } from './weather.service';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListComponent,
     DetailComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

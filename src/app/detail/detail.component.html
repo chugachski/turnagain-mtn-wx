@@ -1,15 +1,18 @@
 <h2>{{ section.heading }}</h2>
-<img
-  src="../assets/web/expand_web.png"
-  alt="see-more"
+<i
+  class="material-icons arrow"
   (click)="changeState()"
-  [class.hide]="isActive" />
-  <img
-    src="../assets/web/shrink_web.png"
-    alt="see-more"
-    (click)="changeState()"
-    [class.hide]="!isActive" />
-<div *ngIf="isActive">
+  [class.hide]="!isActive">
+  expand_less
+</i>
+<i
+  class="material-icons arrow"
+  (click)="changeState()"
+  [class.hide]="isActive">
+  expand_more
+</i>
+
+<div *ngIf="isActive" class="content">
   <ul *ngFor="let link of section.link">
     <li><a href="{{ link.url }}">{{ link.text }}</a></li>
   </ul>

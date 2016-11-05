@@ -17,7 +17,6 @@ export class ListComponent implements OnInit {
 
   ngOnInit() {
     this.sections = this.weatherService.getWeather();
-    console.log('sections:', this.sections);
   }
 
 }
