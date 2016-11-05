@@ -11,9 +11,10 @@
   [class.hide]="isActive">
   expand_more
 </i>
-
-<div *ngIf="isActive" class="content">
-  <ul *ngFor="let link of section.link">
-    <li><a href="{{ link.url }}">{{ link.text }}</a></li>
-  </ul>
+<div class="wrapper">
+  <div *ngIf="isActive" class="content">
+    <ul *ngFor="let link of section.link">
+      <li><a href="{{ link.url }}">{{ link.text }}</a></li>
+    </ul>
+  </div>
 </div>
