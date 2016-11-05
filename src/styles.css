@@ -17,6 +17,8 @@
   text-align: center;
 }
 
+body { margin: 4% 10% 4% 10%; }
+
 .hide { display: none; }
 
 .arrow {
