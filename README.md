@@ -2,7 +2,7 @@
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.17.
 
 ## Description
-A page of helpful links to weather data around Turnagain Arm. Built with Angular 2 for practice.
+A page of helpful links to weather data around Turnagain Arm. Built with Angular 2 for practice and optimized for viewing on mobile.
 
 ## URL  
 https://chugachski.github.io/turnagain-mtn-wx/
