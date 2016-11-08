@@ -5,8 +5,6 @@ import { Link } from './link';
 @Injectable()
 export class WeatherService {
 
-  constructor() { }
-
   public getWeather(): Section[] {
     return [
       new Section(

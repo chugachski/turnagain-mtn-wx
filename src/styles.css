@@ -28,6 +28,8 @@ body { margin: 4% 10% 4% 10%; }
   background-color: #30468C;
 }
 
+.arrow:hover { background-color: #293d79; }
+
 li {
   background-color: #008B8B;
   border-radius: 6px;
@@ -58,3 +60,5 @@ li:hover {
 ul { padding: 0; }
 
 .material-icons { color: #FCFCFC; }
+
+ i { cursor: pointer; }
