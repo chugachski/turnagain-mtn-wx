@@ -12,7 +12,7 @@ export class WeatherService {
         [
           new Link(
             'http://forecast.weather.gov/product.php?site=GSP&product=REC&issuedby=AER',
-            'Mtn Weather Discussion'
+            'Mtn Wx Discussion'
           ),
           new Link(
             'http://www.cnfaic.org/advisories/current.php',
